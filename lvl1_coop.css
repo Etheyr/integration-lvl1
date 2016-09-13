@@ -1,32 +1,61 @@
+body {
+	background-color: black ;
+}
 .header {
+	margin-top: 45px;
 	background-color: #2E2E2E;
 	height: 100px;
 	box-shadow: 3px 3px 3px #000000;
 	margin: 0;
 }
-ul {
+/* ici le menu */
+a {
 	padding:0;
 	margin:0;
 	list-style-type:none;
 }
-li {
-	border-left:1px solid black;
-}
-ul li a {
-	float: left;
-	 display: block;
-	width:425px;
-	height: 100px;
+
+menu a {
+	
+	width:20%;
+	height: 50px;
 	line-height:175px; 
-	background:black url(images/noir-1.png) repeat-x;
-	color:#DCDCDC;
+	color:white ;
 	text-decoration:none;
 	text-align:center;
-	margin-top: 4px ;
-	margin-left: 15px ;
 	font-size: 30px;
+	position: static; 
+	top: 10px;
+	left: 50px;
+	padding-left: 130px ;
+
 }
-ul li a:hover {
-	background-color:#0652A3;
+menu a:hover {
+	background-color:#2E2E2E;
 	color:white;
+}
+h1 	{
+	margin-left: 75%;
+	margin-top:-750px ;
+	color: white;
+}
+p {
+	text-align: center;
+	color: white;
+	margin-left: 55%;
+}
+ul {
+	margin-top: 5%;
+	color: white;
+	margin-left: 55%;
+}
+li  {
+	margin:20px;
+}
+button {
+	margin-left: 75%;
+	margin-top: 5% ;
+	background:black url(images/noir-1.png) repeat-x;
+	color:#DCDCDC;
+	width:300px;
 }
